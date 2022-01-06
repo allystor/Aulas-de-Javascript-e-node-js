@@ -50,3 +50,7 @@ console.log(umaString.slice(0, 2))
 
 //do indice que começa ao indice que termina de maneira decrescente
 console.log(umaString.slice(-3))
+
+// e por fim para remover alguma letra ou número de uma string utilizamos o .split
+
+console.log(umaString.split('t'))
