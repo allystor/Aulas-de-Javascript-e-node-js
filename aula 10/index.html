@@ -10,19 +10,15 @@
 <body>
     <script>
         const nome = prompt('digite seu nome')
-        const letras = nome.length 
-        const segLetra = nome.slice(1, - 24)
-        const indice1 = nome.slice(1, -25)
-        const indice2 = nome.slice(nome, -1)
-        const ultLetras = nome.slice(nome, -3)
-        document.body.innerHTML +=`Bem-vindo ${nome} <br/>`
-        document.body.innerHTML +=`Seu nome tem ${letras} letras <br/>`
-        document.body.innerHTML +=`a segunda letra do seu nome é: ${segLetra} <br />`
-        document.body.innerHTML +=`o primeiro indice do seu nome é:${indice1} <br />`
-        document.body.innerHTML +=`o último indice do seu nome é:${indice2} <br />`
-        document.body.innerHTML +=`as 3 ultimas letras do seu nome são:${ultLetras} <br />`
-        document.body.innerHTML +=`seu nome com letras maiusculas: <br />`
-        document.body.innerHTML +=`seu nome com letras minúculas: <br />`
+        document.body.innerHTML +=`Bem-vindo <strong>${nome}</strong> <br/>`
+        document.body.innerHTML +=`Seu nome tem <strong>${nome.length}</strong> letras <br/>`
+        document.body.innerHTML +=`A segunda letra do seu nome é: <strong>${nome[1]}</strong> <br />`
+        document.body.innerHTML +=`O primeiro indice do seu nome é:<strong>${nome.indexOf('a')}</strong> <br />`
+        document.body.innerHTML +=`O último indice do seu nome é:<strong>${nome.lastIndexOf('a')}</strong> <br />`
+        document.body.innerHTML +=`As 3 ultimas letras do seu nome são:<strong/>${nome.slice(-3)}</strong> <br />`
+        document.body.innerHTML +=`As palavras do seu nome são: <strong>${nome.split(' ')}</strong> <br />`
+        document.body.innerHTML +=`Seu nome com letras maiusculas:<strong>${nome.toUpperCase()}</strong> <br />`
+        document.body.innerHTML +=`Seu nome com letras minúculas: <strong>${nome.toLowerCase()}</strong/><br />`
     </script>
 </body>
 </html>
