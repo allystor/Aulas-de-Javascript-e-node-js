@@ -1,0 +1,34 @@
+//Mais sobre strings
+//Utilizamos [] ou .charAt() para controlar um elemento dentro de uma string
+//Exemplo:
+//               01234567
+let umaString = "um texto";
+
+console.log(umaString[4])
+
+console.log(umaString.charAt(7))
+//se o número escolhido não atinge o número de elementos dentro da strings o motor mostrará'undefined'
+
+
+//Utiizamos.concat para poder concatenar uma string a uma outra string
+//Exemplo:
+
+console.log(umaString.concat('em','um','lindo dia'))
+
+//ou sem virgulas
+
+console.log(umaString.concat('em um lindo dia'))
+
+//ou sem .concat
+
+console.log(umaString + 'em um lindo dia')
+
+//ou com templatestring
+
+console.log(`${umaString} em um lindo dia`)
+
+//para determinar o indice de quando um uma palavra começa utilizamos .indexOf() para descobrimos
+
+console.log(umaString.indexOf('texto'))
+
+//

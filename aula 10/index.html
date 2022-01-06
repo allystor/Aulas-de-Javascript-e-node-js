@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=]
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('digite seu nome')
+        const letras = nome.length 
+        const segLetra = nome.slice(1, - 24)
+        const indice1 = nome.slice(1, -25)
+        const indice2 = nome.slice(nome, -1)
+        const ultLetras = nome.slice(nome, -3)
+        document.body.innerHTML +=`Bem-vindo ${nome} <br/>`
+        document.body.innerHTML +=`Seu nome tem ${letras} letras <br/>`
+        document.body.innerHTML +=`a segunda letra do seu nome é: ${segLetra} <br />`
+        document.body.innerHTML +=`o primeiro indice do seu nome é:${indice1} <br />`
+        document.body.innerHTML +=`o último indice do seu nome é:${indice2} <br />`
+        document.body.innerHTML +=`as 3 ultimas letras do seu nome são:${ultLetras} <br />`
+        document.body.innerHTML +=`seu nome com letras maiusculas: <br />`
+        document.body.innerHTML +=`seu nome com letras minúculas: <br />`
+    </script>
+</body>
+</html>
