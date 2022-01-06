@@ -31,4 +31,22 @@ console.log(`${umaString} em um lindo dia`)
 
 console.log(umaString.indexOf('texto'))
 
-//
+//para determinar uma expressão regula, utilizamos .match 
+
+console.log(umaString.match(/[a-z]/))
+
+//utilizamos o .replace para alterarmos ou não a expressão regular
+
+console.log(umaString.replace('um', 'outra'))
+
+//para determinarmos tamanho de uma string utilizamos .lenght
+
+console.log(umaString.length)
+
+//e determinarmos apenas algumas partes da string utilizamos .slice das seguintes maneiras:
+
+//do indice que começa ao indice que termina de maneira crescente
+console.log(umaString.slice(0, 2))
+
+//do indice que começa ao indice que termina de maneira decrescente
+console.log(umaString.slice(-3))
