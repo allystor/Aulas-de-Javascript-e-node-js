@@ -1,4 +1,4 @@
-//Sobre math e números em javascript.
+//Sobre números em javascript.
 
 let num1 = 1;//número
 let num2 = 2.5;//número
