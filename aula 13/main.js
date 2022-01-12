@@ -8,6 +8,7 @@
 const numero = Number(prompt("Bem-vindo digite um número"));
 
 document.getElementById('resultado').innerHTML = numero
+
 document.body.innerHTML +=`A raiz quadrada de seu número é inteiro: <strong>${Math.sqrt(numero)}</strong>`
 document.body.innerHTML +=`${numero} este número é: <strong>${Number.isInteger(numero)}</strong>`
 document.body.innerHTML +=`Este número é NaN: <strong>${Number.isNaN(numero)}</strong>`
