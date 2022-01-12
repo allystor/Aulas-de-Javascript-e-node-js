@@ -49,3 +49,10 @@ console.log(lista1.length)
 lista1.unshift('fábio')
 
 console.log(lista1)
+
+//Similarmente nós podemos realizar a remoção de elementos do array com o parâmentro .pop só que removendo os elementos pelo final
+
+//exemplificando:
+
+lista1.pop()
+console.log(lista1)
