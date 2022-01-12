@@ -48,7 +48,7 @@ console.log(num6);
 
 //Também podemos elevar o número com a potenciação da seguinte forma:
 
-console.log(Math.pow(2, 10))
+console.log(Math.pow(2, 10));
 
 //No caso utlizamos o parâmetro .pow() para elevar uma potência
 
@@ -56,4 +56,4 @@ console.log(Math.pow(2, 10))
 
 //exemplo:
 
-console.log(Math.sqrt(64))
+console.log(Math.sqrt(64));
