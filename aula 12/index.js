@@ -21,7 +21,7 @@ console.log(num3);
 
 let num4 = Math.round(num1);
 
-console.log(num3);
+console.log(num4);
 
 //No caso da função .round() ela segue quase a mesma função do .floor só que com outras funções e
 //além de arrendondar um número para o seu mais próximo só que sem casas decimais.
