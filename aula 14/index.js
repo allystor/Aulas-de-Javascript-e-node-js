@@ -46,6 +46,6 @@ console.log(lista1.length)
 
 //logo:
 
-lista1.unshift(fábio)
+lista1.unshift('fábio')
 
 console.log(lista1)
