@@ -34,3 +34,18 @@ lista1.push('Olavo')
 
 console.log(lista1)
 console.log(lista1.length)
+
+//Para podermos adicionar um elemento no inicio da lista utilizamos o parâmetro .unshift mas iremos trocar o elemento que estava
+//antes de substimuirmos para uma casa a frente
+
+//simplificando teriamos algo do tipo L = ['lucas', 'Mariana']
+//                                           0        1
+//com o .unshift adcionariamos um novo elemento chamado 'Alan' que seria o indice 0 e o lucas se tornaria o indice 1
+//o que resultaria da seguinte forma ['Alan', 'Lucas','mariana']
+//                                      0        1       2
+
+//logo:
+
+lista1.unshift(fábio)
+
+console.log(lista1)
