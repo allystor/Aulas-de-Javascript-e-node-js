@@ -11,4 +11,18 @@
 
 const lista1 =['Miguel','João','Eduarda']
 
-console.log(lista1[0])
+console.log(lista1)
+
+//Se caso quisermos descobrir o tamanho do nosso array utilizamos o parâmetro .lenght
+
+console.log(lista1.length)
+
+//Se quisermos adicionarmos um novo elemento por fora do array nós automaticamente estamos adicionando um novo indice para ele
+//como neste exemplo:
+
+lista1[lista1.length] = 'miguel'
+lista1[lista1.length] = 'João'
+lista1[lista1.length] = 'Eduarda'
+
+console.log(lista1);
+console.log(lista1.length)
