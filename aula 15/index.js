@@ -15,7 +15,7 @@ ola(chamando função)
 com um determinado tipo de objetivo, esta não ter o mesmo objetivo de outra varíavel de mesmo
 nome que esteja em outra função.
 
-*Parâmetros de funções são valores de dados que inserimos no momento em que chamamos novamente a função
+*Parâmetros de funções são valores de dados que inserimos no momento em que chamamos novamente a função.
 
 
 *Com as funções podemos fazer que elas interajam simutaneamente entre si, então
