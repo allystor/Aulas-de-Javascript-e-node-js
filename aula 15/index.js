@@ -28,3 +28,39 @@ function saudação(nome) {
     console.log(`bom dia ${nome}`)
 }
 saudação('álvaro')
+
+/*podemos também armazenar dados de funções dentro de uma variável de modo em que tenhamos que especificar
+como a variável irá funcionar pois se não teremos um retoro 'undefined' porém, mesmo assim esta será
+executada no programa somente não nos retornará um valor por não termos definido-o.
+
+exemplo:
+*/
+
+function saudação(nome) {
+    console.log(`bom dia ${nome}`)
+}
+const var1 = saudação('álvaro')
+console.log(var1)
+
+/*Para acrescentarmos um definição para esta função utilizamos o 'return' para fazer com que a váriável retorne.
+o que está dentro da função porém acrescentando um retorno.
+
+exemplo:
+*/
+function saudação(nome) {
+    console.log(`bom dia ${nome}`)
+    return 'é um prazer ter você aqui'
+}
+const var2 = saudação('álvaro')
+console.log(var2)
+
+/*Com o 'return' podemos simplificar nossa função para que os valores e interações possam ser retornados
+de maneira mais prática.
+
+exemplo:
+*/
+function saudação(nome) {
+    return `bom dia ${nome}, é um prazer ter você aqui`
+}
+const var2 = saudação('álvaro')
+console.log(var2)
