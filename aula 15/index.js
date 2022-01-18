@@ -25,9 +25,9 @@ eu possa utilizar a mesma função porém com um parâmetro para isso para isso.
 exemplo:
 */
 function saudação(nome) {
-    console.log(`bom dia ${nome}`)
+    console.log(`bom dia ${nome}`);
 }
-saudação('álvaro')
+saudação('álvaro');
 
 /*podemos também armazenar dados de funções dentro de uma variável de modo em que tenhamos que especificar
 como a variável irá funcionar pois se não teremos um retoro 'undefined' porém, mesmo assim esta será
@@ -37,10 +37,10 @@ exemplo:
 */
 
 function saudação(nome) {
-    console.log(`bom dia ${nome}`)
+    console.log(`bom dia ${nome}`);
 }
-const var1 = saudação('álvaro')
-console.log(var1)
+const var1 = saudação('álvaro');
+console.log(var1);
 
 /*Para acrescentarmos um definição para esta função utilizamos o 'return' para fazer com que a váriável retorne.
 o que está dentro da função porém acrescentando um retorno.
@@ -48,11 +48,11 @@ o que está dentro da função porém acrescentando um retorno.
 exemplo:
 */
 function saudação(nome) {
-    console.log(`bom dia ${nome}`)
+    console.log(`bom dia ${nome}`);
     return 'é um prazer ter você aqui'
 }
-const var2 = saudação('álvaro')
-console.log(var2)
+const var2 = saudação('álvaro');
+console.log(var2);
 
 /*Com o 'return' podemos simplificar nossa função para que os valores e interações possam ser retornados
 de maneira mais prática.
@@ -62,5 +62,39 @@ exemplo:
 function saudação(nome) {
     return `bom dia ${nome}, é um prazer ter você aqui`
 }
-const var2 = saudação('álvaro')
-console.log(var2)
+const var3 = saudação('álvaro');
+console.log(var3);
+
+/*A mais importante atividades de uma função é o envio e recebimentos de valores
+com isso podemos criar estruturas de dados para que o javascript possa operar
+de maneira eficiente dentro de um site ou mesmo programa.
+*/
+function soma(x,y) {
+    const resultado1 = x + y
+    return resultado1
+}
+console.log(soma(2, 2))
+
+function soma(x,y) {
+    const resultado2 = x - y
+    return resultado2
+}
+console.log(soma(2, 2))
+
+function soma(x,y) {
+    const resultado3 = x * y
+    return resultado3
+}
+console.log(soma(2, 2))
+
+function soma(x,y) {
+    const resultado4 = x / y
+    return resultado4
+}
+console.log(soma(2, 2))
+
+function soma(x,y) {
+    const resultado5 = Math.sqrt(x + y)
+    return resultado5
+}
+console.log(soma(2, 2))
