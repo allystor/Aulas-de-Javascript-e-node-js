@@ -22,27 +22,16 @@ console.log(pessoa1.nome)
 console.log(pessoa2.nome)
 
 */
-/*
+/*Criando um objeto de exemplo para uma interação da máquina com o usuário*/
 
-Como pode se observar, os objetos possuem caracterísitcas dentro deles que podem ser acessadas pelo seu nome
-e a característica que está dentro dele.
+const pessoa= {
+    nome: 'João',
+    sobrenome:'Almeida',
+    idade: 25,
 
-para tornar este exemplo menos trabalhoso e repetitivo podemos utilizar funções para isso retornando o objeto.
-
-Esta função também pode ser conhecida como fábrica pois ela cria novos objetos.
-*/
-
-function criaPessoa (nome, sobrenome, idade) {
-    return{
-        nome: nome,
-        sobrenome: sobrenome,
-        idade: idade
-    };
-}
-const pessoa1 = criaPessoa('Luiz','Ricardo',26)
-const pessoa2 = criaPessoa('Álvaro','Veiga',25)
-const pessoa3 = criaPessoa('Maria','Joaquina',24)
-
-console.log(pessoa1.nome)
-console.log(pessoa2.nome)
-console.log(pessoa3.nome)
+    resposta() {
+        console.log(`Olá ${this.nome} ${this.sobrenome}, seja bem-vindo`)
+        console.log(`vejo que você tem ${this.idade} anos!`)
+    }
+};
+pessoa.resposta();
