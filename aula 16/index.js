@@ -28,7 +28,7 @@ const pessoa= {
     nome: 'João',
     sobrenome:'Almeida',
     idade: 25,
-
+    /*Criando método */
     resposta() {
         console.log(`Olá ${this.nome} ${this.sobrenome}, seja bem-vindo`)
         console.log(`vejo que você tem ${this.idade} anos!`)
