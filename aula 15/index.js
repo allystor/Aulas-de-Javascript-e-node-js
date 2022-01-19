@@ -26,7 +26,7 @@ exemplo:
 */
 function saudação(nome) {
     console.log(`bom dia ${nome}`);
-}
+};
 saudação('álvaro');
 
 /*podemos também armazenar dados de funções dentro de uma variável de modo em que tenhamos que especificar
@@ -38,7 +38,7 @@ exemplo:
 
 function saudação(nome) {
     console.log(`bom dia ${nome}`);
-}
+};
 const var1 = saudação('álvaro');
 console.log(var1);
 
@@ -50,7 +50,7 @@ exemplo:
 function saudação(nome) {
     console.log(`bom dia ${nome}`);
     return 'é um prazer ter você aqui'
-}
+};
 const var2 = saudação('álvaro');
 console.log(var2);
 
@@ -61,7 +61,7 @@ exemplo:
 */
 function saudação(nome) {
     return `bom dia ${nome}, é um prazer ter você aqui`
-}
+};
 const var3 = saudação('álvaro');
 console.log(var3);
 
@@ -70,33 +70,33 @@ com isso podemos criar estruturas de dados para que o javascript possa operar
 de maneira eficiente dentro de um site ou mesmo programa.
 */
 function soma1(x,y) {
-    const resultado1 = x + y
+    const resultado1 = x + y;
     return resultado1
-}
+};
 console.log(soma1(2, 2))
 
 function soma2(x,y) {
-    const resultado2 = x - y
+    const resultado2 = x - y;
     return resultado2
-}
+};
 console.log(soma2(2, 2))
 
 function soma3(x,y) {
-    const resultado3 = x * y
+    const resultado3 = x * y;
     return resultado3
-}
+};
 console.log(soma3(2, 2))
 
 function soma4(x,y) {
-    const resultado4 = x / y
+    const resultado4 = x / y;
     return resultado4
-}
+};
 console.log(soma4(2, 2))
 
 function soma5(x) {
-    const resultado5 = Math.sqrt(x)
+    const resultado5 = Math.sqrt(x);
     return resultado5
-}
+};
 console.log(soma5(2))
 
 /*Outros tipos de funçlões*/
