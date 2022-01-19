@@ -69,32 +69,42 @@ console.log(var3);
 com isso podemos criar estruturas de dados para que o javascript possa operar
 de maneira eficiente dentro de um site ou mesmo programa.
 */
-function soma(x,y) {
+function soma1(x,y) {
     const resultado1 = x + y
     return resultado1
 }
-console.log(soma(2, 2))
+console.log(soma1(2, 2))
 
-function soma(x,y) {
+function soma2(x,y) {
     const resultado2 = x - y
     return resultado2
 }
-console.log(soma(2, 2))
+console.log(soma2(2, 2))
 
-function soma(x,y) {
+function soma3(x,y) {
     const resultado3 = x * y
     return resultado3
 }
-console.log(soma(2, 2))
+console.log(soma3(2, 2))
 
-function soma(x,y) {
+function soma4(x,y) {
     const resultado4 = x / y
     return resultado4
 }
-console.log(soma(2, 2))
+console.log(soma4(2, 2))
 
-function soma(x,y) {
-    const resultado5 = Math.sqrt(x + y)
+function soma5(x) {
+    const resultado5 = Math.sqrt(x)
     return resultado5
 }
-console.log(soma(2, 2))
+console.log(soma5(2))
+
+/*Outros tipos de funçlões*/
+/*função anônima: é quando criamos uma função dentro de uma variável.
+
+exemplo: determine numa função que descubra a raiz de um número
+*/
+const raiz = function (n) {
+    return Math.sqrt(n)
+};
+console.log(raiz(16))
