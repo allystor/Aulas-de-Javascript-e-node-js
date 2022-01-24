@@ -8,12 +8,11 @@ credencial enviada.
 */
 
 function escopo() {
-    const form = document.querySelector('.form');
+    const form = document.body.querySelector('.form');
     const resultado = document.getElementById('resultado');
     const pessoas = [];
 
-    function recebeEventoEnvio(evento) {
-        evento.preventDefault();
+    function recebeEventoEnvio() {
 
         const nome = form.querySelector('.nome')
         const sobrenome = form.querySelector('.sobrenome')
@@ -30,6 +29,7 @@ function escopo() {
 
         resultado.innerHTML += `<p>${nome.nodeValue} ${sobrenome.nodeValue} ${peso.nodeValue} ${altura.nodeValue}</p>`
     };
+    recebeEventoEnvio();
     form.addEventListener('submit', recebeEventoEnvio);
 };
-escopo()
+escopo();
