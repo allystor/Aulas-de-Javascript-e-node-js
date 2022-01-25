@@ -8,7 +8,7 @@ credencial enviada.
 */
 
 function escopo() {
-    const form = document.body.querySelector('.form');
+    const form = document.body.querySelector('form');
     const resultado = document.getElementById('resultado');
     const pessoas = [];
 
@@ -19,15 +19,16 @@ function escopo() {
         const peso = form.querySelector('.peso')
         const altura = form.querySelector('.altura')
 
-        pessoas.push ({
-            nome:nome.nodeValue,
+        pessoas.push({
+            nome: nome.nodeValue,
             sobrenome: sobrenome.nodeValue,
-            peso:peso.nodeValue,
-            altura:altura.nodeValue
+            peso: peso.nodeValue,
+            altura: altura.Value
         });
         console.log(pessoas)
 
-        resultado.innerHTML += `<p>${nome.nodeValue} ${sobrenome.nodeValue} ${peso.nodeValue} ${altura.nodeValue}</p>`
+        resultado.innerHTML += `<p>${nome.nodeValue} ${sobrenome.nodeValue}`+
+        `${peso.nodeValue} ${altura.nodeValue}</p>`
     };
     recebeEventoEnvio();
     form.addEventListener('submit', recebeEventoEnvio);
