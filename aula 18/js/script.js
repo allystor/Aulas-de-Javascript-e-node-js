@@ -20,15 +20,16 @@ function escopo() {
         const altura = form.querySelector('.altura')
 
         pessoas.push({
-            nome: nome.Value,
-            sobrenome: sobrenome.Value,
-            peso: peso.Value,
-            altura: altura.Value
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value
         });
-        console.log(pessoas)
+        console.log(pessoas.at(0))
+        let pessoaAtual = pessoas.at(-1) 
 
-        resultado.innerHTML += `<p>${nome.Value} ${sobrenome.Value}`+
-        `${peso.Value} ${altura.nValue}</p>`
+        resultado.innerHTML += `<p>${pessoaAtual.nome} ${pessoaAtual.sobrenome}`+
+        `${pessoaAtual.peso} ${pessoaAtual.altura}</p>`
     };
     recebeEventoEnvio();
     form.addEventListener('submit', recebeEventoEnvio);
