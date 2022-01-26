@@ -13,7 +13,8 @@ checar mais de uma operação de um ou mais eventos. Em javascript temos os segu
                 onde ambas são falsas, retornará um valor falso ou se as mesmas tiverem somente um valor
                 verdadeiro retornarão um valor verdadeiro para as duas).
 
-! -> NOT -> NÃO
+! -> NOT -> NÃO(Esta irá inverter os valores da expressão, ou seja, se um determinado valor de uma expressão é
+                verdadeiro, colocando o '!' no inicio ele passa a ser um valor falso e virce-versa).
 
 Vejamos como utilizamos estes operadores em valores:
 
@@ -37,4 +38,10 @@ console.log(expressão4);
 console.log(expressão5);
 
 //exemplos com !:
+
+const expressão6 = !true;
+const expressão7 = !false;
+
+console.log(expressão6);
+console.log(expressão7);
 
