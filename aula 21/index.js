@@ -19,8 +19,26 @@ exemplo:
 
  */
 
-console.log('bem' && 0 && 'vindo')
+console.log('bem' && 0 && 'vindo');
 
 console.log('Álvaro' && 1 && 'João');
 
 //No caso inserimos um valor de string, number e string e obtivemos o valor da última string
+
+//Exemplo de execução em curto circuito sem estrutura condicional:
+
+function falaOi() {
+    return 'oi'
+}
+let executar = null;
+console.log(executar && falaOi());
+
+
+/*
+
+Já com '||' ele sempre irá retornar o primeiro valor verdadeiro a ser interpretado pelo javascript, logo qualquer
+valor falso que inserirmos será devolvido de maneira q haja apenas o valor verdadeiro
+
+*/
+
+console.log(null || 0 || undefined ||NaN || "Álvaro")
