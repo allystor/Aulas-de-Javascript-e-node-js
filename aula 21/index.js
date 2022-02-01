@@ -41,4 +41,4 @@ valor falso que inserirmos será devolvido de maneira q haja apenas o valor verd
 
 */
 
-console.log(null || 0 || undefined ||NaN || "Álvaro")
+console.log(null || 0 || undefined ||NaN || "Álvaro");
