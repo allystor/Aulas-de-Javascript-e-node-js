@@ -11,18 +11,18 @@ Suponhamos que:
 
 */
 //determinando uma varável
-const hora = 10;
+const hora = 19;
 
 //criando uma primeira base condicional
-if(hora < 12){
+if(hora <= 12){
     console.log('Bom dia programador')
 }
 //criando uma segunda base condicional
-else if (hora > 12) {
+else if (hora >= 12) {
     console.log('Boa tarde programador')
 }
 //criando uma terceira base condicional
-else if (hora > 18) {
+else if (hora >= 18) {
     console.log('Boa noite programador')
 };
 /*
